@@ -45,6 +45,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-left: 40%;
+    margin-top: 10px;
     /* Add transition effect for background color */
     transition: background-color 0.3s ease;
     
