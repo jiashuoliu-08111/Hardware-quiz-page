@@ -1,8 +1,8 @@
 // Define the correct answers for each question
 const correctAnswers = {
-    q1: "cpuMotherboard",
-    q2: "coolingFan",
-    q3: "centralUnit"
+    q1: "HardwareAndSoftware",
+    q2: "SystemCoolingFan",
+    q3: "CentralProcessingUnit"
 };
 
 // Function to calculate and display the quiz score
