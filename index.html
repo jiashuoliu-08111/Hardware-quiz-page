@@ -6,12 +6,42 @@
     </head>
     <body>
         <div id="information">
-            <h1 id="intro-sentense">Hardware Quiz</h1>
-            <h4 id="requirement">Please answer the following question properly! Good luck. Each multiple queation only has one right answer.</h4>
+            <h1 id="intro-sentense">Computer Hardware Quiz</h1>
+            <h4 id="requirement">Please answer the following question properly! Good luck. Each multiple choise queation only has one right answer.</h4>
         </div>
-        <hr>
         <div class="question-1">
-            <h2>A computer system is consisted by ____ ?</h2>
+            <h2 id="question">A computer system is consisted by ____ ?</h2>
+            <div id="options">
+                <input type="checkbox" id="CPU-and-motherboard" value="CPU-and-motherboard">
+                <lable for="CPU-and-motherboard">CPU and motherboard</lable>
+                <input type="checkbox" id="hardware-and-software" value="hardware-and-software">
+                <lable for="hardware-and-software">Hardware and software</lable>
+                <input type="checkbox" id="internal-components-and-external-components" value="internal-components-and-external-components">
+                <lable for="internal-components-and-external-components">Internal and external components</lable>
+            </div>
         </div>
+        <div class="question-2">
+            <h2 id="question">Which of the following is a internal hardware component?</h2>
+            <div id="options">
+                <input type="checkbox" id="system-cooling-fan" value="system-cooling-fan">
+                <lable for="system-cooling-fan">System cooling fan</lable>
+                <input type="checkbox" id="power-supply-cable" value="power-supply-cable">
+                <lable for="power-supply-cable">Power supply cable</lable>
+                <input type="checkbox" id="connection-socket" value="connection-socket">
+                <lable for="connection-socket">Connection socket</lable> 
+            </div>         
+        </div>
+        <div class="question-3">
+            <h2 id="question">What is acronym CPU stands for?</h2>
+             <div id="options">
+                 <input type="checkbox" id="computer-power-unit" value="computer-power-unit">
+                <lable for="computer-power-unit">Computer power unit</lable>
+                <input type="checkbox" id="computer-processing-unit" value="computer-processing-unit">
+                 <lable for="computer-processing-unit">Computer processing unit</lable>
+                 <input type="checkbox" id="central-processing-unit" value="central-processing-unit">
+                 <lable for="central-processing-unit">Central processing unit</lable>
+            </div>
+        </div>
+        <script src="quiz.js"></script>
     </body>
 </html>
