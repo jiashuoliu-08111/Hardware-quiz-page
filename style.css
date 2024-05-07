@@ -9,28 +9,30 @@ body {
     border-bottom: 2px solid black;
 }
 
-#options {
+#question1, #question2, #question3 {
     text-align: center;
 }
 
-lable {
-    margin-right: 20px;
-}
-
-.question-1 {
+#question1 {
     padding-bottom: 2em;
     border-bottom: 2px solid black;
     border-radius: 10px;
 }
 
-.question-2 {
+#question2 {
     padding-bottom: 2em;
     border-bottom: 2px solid black;
     border-radius: 10px;
 }
 
-.question-3 {
+#question3 {
     padding-bottom: 2em;
     border-bottom: 2px solid black;
     border-radius: 10px;
+}
+
+button {
+    background-color: antiquewhite;
+    display: block;
+    ;
 }
