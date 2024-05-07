@@ -1,16 +1,16 @@
 // Define the correct answers for each question
 const correctAnswers = {
-    question1: "Hardware and software",
-    question2: "System cooling fan",
-    question3: "Central processing unit"
+    q1: "cpuMotherboard",
+    q2: "coolingFan",
+    q3: "centralUnit"
 };
 
 // Function to calculate and display the quiz score
 function submitQuiz() {
     let score = 0;
 
-    // Check each question's selected answer
-    for (const questionId in correctAnswers) {
+    // Loop through each question
+    Object.keys(correctAnswers).forEach(questionId => {
         const selectedAnswer = document.querySelector(`input[name=${questionId}]:checked`);
 
         if (selectedAnswer) {
@@ -21,8 +21,8 @@ function submitQuiz() {
                 score++;
             }
         }
-    }
+    });
 
     // Display the score
-    document.getElementById("score-value").textContent = score;
+    document.getElementById("score-value").textContent = score.toString();
 }
