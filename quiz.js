@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             selectedAnswer: null
         }
     ];
+    
 
     const submitButton = document.createElement("button");
     submitButton.textContent = "Submit Answers";
@@ -53,3 +54,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.appendChild(resultDiv);
     }
 });
+
+
+
