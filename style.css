@@ -4,6 +4,12 @@ body {
     max-height: 100%;
 }
 
+#back-to-notes {
+    float:left;
+    position:fixed;
+    opacity: 80%;
+}
+
 #information {
     text-align: center;
     border-bottom: 2px solid black;
