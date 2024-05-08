@@ -14,6 +14,41 @@ document.addEventListener("DOMContentLoaded", function() {
             question: "What does the acronym CPU stand for?",
             correctAnswer: "central-processing-unit",
             selectedAnswer: null
+        },
+        {
+            question: "Which component of a computer is responsible for storing data long-term?",
+            correctAnswer: "hard-drive",
+            selectedAnswer: null
+        },
+        {
+            question: "What does GPU stand for?",
+            correctAnswer: "graphics-processing-unit",
+            selectedAnswer: null
+        },
+        {
+            question: "Which component is responsible for actively cooling a computer by expelling warm air?",
+            correctAnswer: "system-cooling-fan",
+            selectedAnswer: null
+        },
+        {
+            question: "What is the role of a switched-mode power supply (SMPS) in a computer?",
+            correctAnswer: "to-convert-electrical-power-efficiently",
+            selectedAnswer: null
+        },
+        {
+            question: "What is a motherboard responsible for in a computer system?",
+            correctAnswer: "providing-communication-between-components",
+            selectedAnswer: null
+        },
+        {
+            question: "Which type of drive uses laser light to read and write data on discs?",
+            correctAnswer: "optical-drive",
+            selectedAnswer: null
+        },
+        {
+            question: "Which component executes instructions of a computer program, including arithmetic, logic, and input/output operations?",
+            correctAnswer: "CPU",
+            selectedAnswer: null
         }
     ];
     
